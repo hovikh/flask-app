@@ -98,23 +98,23 @@ def home():
             <h2>🏆 Major Trophies</h2>
             <div class="titles" id="titles">
                 <div class="trophy">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Premier_League_Trophy.png" alt="Premier League Trophy">
+                    <img src="https://raw.githubusercontent.com/AdelShaja/football-images/main/premier-league.png" alt="Premier League Trophy">
                     <p>19x English League Titles</p>
                 </div>
                 <div class="trophy">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Uefa_cl_trophy.png" alt="Champions League Trophy">
+                    <img src="https://raw.githubusercontent.com/AdelShaja/football-images/main/champions-league.png" alt="Champions League Trophy">
                     <p>6x UEFA Champions League Titles</p>
                 </div>
                 <div class="trophy">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/e/e3/FA_Cup_2013.png" alt="FA Cup Trophy">
+                    <img src="https://raw.githubusercontent.com/AdelShaja/football-images/main/fa-cup.png" alt="FA Cup Trophy">
                     <p>8x FA Cups</p>
                 </div>
                 <div class="trophy">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Uefa_Super_Cup.png" alt="UEFA Super Cup Trophy">
+                    <img src="https://raw.githubusercontent.com/AdelShaja/football-images/main/uefa-super-cup.png" alt="UEFA Super Cup Trophy">
                     <p>4x UEFA Super Cups</p>
                 </div>
                 <div class="trophy">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/FIFA_Club_World_Cup_Trophy.png" alt="FIFA Club World Cup Trophy">
+                    <img src="https://raw.githubusercontent.com/AdelShaja/football-images/main/fifa-club-world-cup.png" alt="FIFA Club World Cup Trophy">
                     <p>1x FIFA Club World Cup</p>
                 </div>
             </div>
