@@ -57,29 +57,24 @@ def home():
                 border-radius: 10px;
                 margin: 15px 0;
             }
-            .info {
-                text-align: left;
-                font-size: 18px;
-                line-height: 1.6;
+            .titles {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
             }
-            .titles, .legends {
-                list-style: none;
-                padding: 0;
-            }
-            .titles li, .legends li {
-                background: #c8102e;
-                color: white;
-                padding: 10px;
-                margin: 5px 0;
-                border-radius: 5px;
+            .trophy {
+                width: 200px;
                 text-align: center;
-                font-weight: bold;
             }
-            .history {
-                background: #f1f1f1;
-                padding: 20px;
+            .trophy img {
+                width: 100%;
                 border-radius: 10px;
-                text-align: left;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            }
+            .trophy p {
+                font-weight: bold;
+                margin-top: 10px;
             }
             footer {
                 background-color: #c8102e;
@@ -93,65 +88,35 @@ def home():
         <header>Liverpool FC - You'll Never Walk Alone</header>
         <nav>
             <a href="/">Home</a>
-            <a href="#history">History</a>
             <a href="#titles">Trophies</a>
-            <a href="#legends">Legends</a>
-            <a href="#managers">Managers</a>
         </nav>
 
         <div class="container">
             <h1>Welcome to Liverpool FC Fan Page</h1>
             <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" alt="Liverpool FC Logo" width="200px">
-            
-            <h2>🏟️ Anfield Stadium</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Anfield_Stadium.jpg" alt="Anfield Stadium">
-            
-            <div class="info">
-                <h2>About Liverpool FC</h2>
-                <p><strong>Founded:</strong> 3 June 1892</p>
-                <p><strong>Stadium:</strong> Anfield (Capacity: 53,394)</p>
-                <p><strong>Manager:</strong> Jürgen Klopp</p>
-                <p><strong>League:</strong> English Premier League</p>
-            </div>
 
-            <div class="history" id="history">
-                <h2>Club History 📜</h2>
-                <p>Liverpool FC was founded in 1892 after a dispute between Everton FC and their stadium owner. The club quickly rose to prominence, winning its first league title in 1901. The golden era of the 1970s and 80s saw Liverpool dominate English and European football under Bill Shankly, Bob Paisley, and Kenny Dalglish.</p>
-                <p>In 2005, Liverpool staged the famous "Miracle of Istanbul" comeback against AC Milan to win their 5th UEFA Champions League title. In 2019, under Jürgen Klopp, they won their 6th Champions League and, in 2020, claimed their first English league title in 30 years.</p>
-            </div>
-
-            <div class="info" id="titles">
-                <h2>🏆 Major Trophies</h2>
-                <ul class="titles">
-                    <li>🏆 19x English League Titles</li>
-                    <li>🏆 6x UEFA Champions League Titles</li>
-                    <li>🏆 8x FA Cups</li>
-                    <li>🏆 4x UEFA Super Cups</li>
-                    <li>🏆 1x FIFA Club World Cup</li>
-                </ul>
-            </div>
-
-            <div class="info" id="legends">
-                <h2>⚽ Legendary Players</h2>
-                <ul class="legends">
-                    <li>Steven Gerrard 🏅</li>
-                    <li>Kenny Dalglish 🔥</li>
-                    <li>Ian Rush 🎯</li>
-                    <li>Mohamed Salah ⚡</li>
-                    <li>Fernando Torres 🚀</li>
-                    <li>Robbie Fowler 🎯</li>
-                </ul>
-            </div>
-
-            <div class="info" id="managers">
-                <h2>👔 Notable Managers</h2>
-                <ul class="titles">
-                    <li>Bill Shankly (1959-1974) 🔥</li>
-                    <li>Bob Paisley (1974-1983) 🏆</li>
-                    <li>Kenny Dalglish (1985-1991, 2011-2012) 🎯</li>
-                    <li>Rafael Benítez (2004-2010) ✨</li>
-                    <li>Jürgen Klopp (2015-Present) 🌟</li>
-                </ul>
+            <h2>🏆 Major Trophies</h2>
+            <div class="titles" id="titles">
+                <div class="trophy">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Premier_League_Trophy.png" alt="Premier League Trophy">
+                    <p>19x English League Titles</p>
+                </div>
+                <div class="trophy">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Uefa_cl_trophy.png" alt="Champions League Trophy">
+                    <p>6x UEFA Champions League Titles</p>
+                </div>
+                <div class="trophy">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/e/e3/FA_Cup_2013.png" alt="FA Cup Trophy">
+                    <p>8x FA Cups</p>
+                </div>
+                <div class="trophy">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Uefa_Super_Cup.png" alt="UEFA Super Cup Trophy">
+                    <p>4x UEFA Super Cups</p>
+                </div>
+                <div class="trophy">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/FIFA_Club_World_Cup_Trophy.png" alt="FIFA Club World Cup Trophy">
+                    <p>1x FIFA Club World Cup</p>
+                </div>
             </div>
         </div>
 
