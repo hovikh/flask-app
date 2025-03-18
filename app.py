@@ -7,19 +7,7 @@ def home():
     return """
     <html>
     <head>
-        <title>Liverpool FC - You'll Never Walk Alone</title>
-        <style>
-            body {
-                font-family: 'Arial', sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f8f9fa;
-                text-align: center;
-            }
-            header {
-                background-color: #c8102e;
-                padding: 20px;
-                color: white;
+       
                 font-size: 24px;
                 font-weight: bold;
             }
